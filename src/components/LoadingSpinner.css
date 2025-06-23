@@ -1,0 +1,182 @@
+.loading-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.loading-text {
+  color: #4a5568;
+  font-size: 0.95rem;
+  font-weight: 600;
+  margin: 0;
+  text-align: center;
+  letter-spacing: -0.025em;
+}
+
+.spinner {
+  position: relative;
+  display: inline-block;
+}
+
+.spinner-ring {
+  position: absolute;
+  border: 2px solid transparent;
+  border-radius: 50%;
+  animation: spin 1.2s linear infinite;
+}
+
+.spinner-ring:nth-child(1) {
+  animation-delay: 0s;
+}
+
+.spinner-ring:nth-child(2) {
+  animation-delay: 0.2s;
+}
+
+.spinner-ring:nth-child(3) {
+  animation-delay: 0.4s;
+}
+
+/* Size variants */
+.spinner-small {
+  width: 20px;
+  height: 20px;
+}
+
+.spinner-small .spinner-ring {
+  width: 20px;
+  height: 20px;
+  border-width: 2px;
+}
+
+.spinner-medium {
+  width: 32px;
+  height: 32px;
+}
+
+.spinner-medium .spinner-ring {
+  width: 32px;
+  height: 32px;
+  border-width: 3px;
+}
+
+.spinner-large {
+  width: 48px;
+  height: 48px;
+}
+
+.spinner-large .spinner-ring {
+  width: 48px;
+  height: 48px;
+  border-width: 4px;
+}
+
+/* Color variants - Professional tech colors */
+.spinner-primary .spinner-ring {
+  border-top-color: #667eea;
+}
+
+.spinner-secondary .spinner-ring {
+  border-top-color: #718096;
+}
+
+.spinner-success .spinner-ring {
+  border-top-color: #68d391;
+}
+
+.spinner-warning .spinner-ring {
+  border-top-color: #f6ad55;
+}
+
+.spinner-danger .spinner-ring {
+  border-top-color: #fc8181;
+}
+
+/* Animation */
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.7;
+  }
+  100% {
+    transform: rotate(360deg);
+    opacity: 1;
+  }
+}
+
+/* Overlay loading */
+.loading-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(255, 255, 255, 0.95);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 9999;
+  backdrop-filter: blur(4px);
+}
+
+/* Inline loading */
+.loading-inline {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.loading-inline .loading-text {
+  margin: 0;
+}
+
+/* Button loading */
+.loading-button {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.loading-button .spinner {
+  width: 18px;
+  height: 18px;
+}
+
+.loading-button .spinner-ring {
+  width: 18px;
+  height: 18px;
+  border-width: 2px;
+}
+
+/* Success state */
+.loading-success {
+  color: #68d391;
+}
+
+.loading-success .spinner-ring {
+  border-top-color: #68d391;
+  animation: spin 0.6s ease-out;
+}
+
+/* Professional loading states */
+.loading-submitting {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+  padding: 1rem 2rem;
+  border-radius: 12px;
+  box-shadow: 0 8px 25px rgba(102, 126, 234, 0.3);
+}
+
+.loading-submitting .loading-text {
+  color: white;
+  font-weight: 700;
+}
+
+.loading-submitting .spinner-ring {
+  border-top-color: white;
+} 
