@@ -7,8 +7,9 @@ This project is a simple multi-step registration form built with React and Node.
 
 To get started, clone the repository using the following command:
 
-    git clone https://github.com/your-username/your-repository.git
-    cd multi-step-registration
+  git clone https://github.com/Dushyanthi-B/Two-Step-Registration-Form-in-React.git
+
+  cd Two-Step-Registration-Form-in-React
 
 Replace the URL above with the actual repository URL if it is different.
 
