@@ -11,7 +11,6 @@ To get started, clone the repository using the following command:
 
   cd Two-Step-Registration-Form-in-React
 
-Replace the URL above with the actual repository URL if it is different.
 
 ## Project Setup Instructions
 
@@ -29,7 +28,7 @@ Replace the URL above with the actual repository URL if it is different.
 
    Replace the URL with your actual backend API base URL if needed.
 
-   Note: The .env file is not included in the repository and will not be pushed to GitHub. You must create this file manually after cloning the project.
+
 
 ## How to Run the App
 
@@ -47,7 +46,7 @@ Replace the URL above with the actual repository URL if it is different.
 
    npm start
 
-   This will start the React development server. The app will open in your browser and you can use the registration system from there.
+   This will start the React development server. The app will open in browser and we can use the registration system from there.
 
 ## Assumptions and Decisions
 
