@@ -25,9 +25,8 @@ To get started, clone the repository using the following command:
    Make sure there is a .env file in the root of the project (multi-step-registration/.env) with the following variable:
 
    REACT_APP_API_BASE_URL=https://your-api-base.com
-
-   Replace the URL with your actual backend API base URL if needed.
-
+   
+   Replace the URL with your actual backend API base URL
 
 
 ## How to Run the App
