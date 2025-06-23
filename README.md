@@ -22,7 +22,7 @@ To get started, clone the repository using the following command:
 
 2. Environment Variables
 
-   Make sure there is a .env file in the root of the project (multi-step-registration/.env) with the following variable:
+   Make sure there is a .env file in the root of the project with the following variable:
 
    REACT_APP_API_BASE_URL=https://your-api-base.com
    
