@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Multi-Step Registration Form
 
 This project is a simple multi-step registration form built with React and Node.js.
@@ -53,3 +54,7 @@ Replace the URL above with the actual repository URL if it is different.
 - When a user enters an email address that has already been registered, the system will show an error message that the email is already registered.
 - The registration form checks all required fields on the client side before allowing the user to continue or submit the form.
 - The system is designed to be simple, responsive, and user-friendly, with clear error messages and progress indicators.
+=======
+# Two-Step-Registration-Form-in-React
+A responsive two-step registration form built with React.
+>>>>>>> de453b8e0eb121fa41b2a1107d21c353ea4fd9e0
